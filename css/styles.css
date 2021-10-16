@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Login page */
+.login_container {
+  margin: 7% auto;
+  padding: 0;
+}
+
+.login_body {
+  background-color: #a2d5f2;
+}
+
+.login_row {
+  background-color: #fafafa;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.login_img {
+  border-radius: 30px;
+}
+
+.login_div {
+  padding: 0;
+}
+
+.login_box, .register_box, .admin_login_box {
+  padding: 1% 2% 0 2%;
+}
+
+.login_input, .admin_login_input {
+  padding: 3%;
+  margin: 3% 0;
+  width: 100%;
+}
+
+.login_btn {
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 100%;
+  background-color: #07689f;
+  color: #fafafa;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.login_btn:hover {
+  background-color: #fafafa;
+  border: 1px solid;
+  color: #000000;
+}
+
+/* register */
+
+.pass_para{
+  margin: 0 0 0 2%;
+  padding: 0;
+
+}
+
+.register_input{
+  padding: 1%;
+  margin: 1% 0;
+  width: 100%;
+}
+
+.register_btn {
+  outline: none;
+  border: none;
+  height: 36px;
+  width: 100%;
+  background-color: #07689f;
+  color: #fafafa;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.register_btn:hover {
+  background-color: #fafafa;
+  border: 1px solid;
+  color: #000000;
+}
+/* USER HOME */
+
+.user_brand{
+  color: #ffffff;
+}
+.user_logout{
+  color: #ffffff;
+  text-decoration: none;
+}
+.user_body{
+  margin: 0;
+  padding: 0;
+  background-color: #a2d5f2;
+}
+.user_nav{
+  background-color: #07689f;
+  margin: 0;
+}
+.user_container{
+  margin: 10% auto;
+}
+
+.user_btn{
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 60%;
+  background-color: #07689f;
+  color: #fafafa;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 3%;
+
+}
+.user_btn:hover {
+  background-color: #fafafa;
+  border: 1px solid;
+  color: #000000;
+}
+.user_selection{
+  margin-top: 1%;
+}
+.user_hr{
+  margin: 0;
+}
+.user_buttons{
+  text-align: center;
+}
+.user_submit{
+  outline: none;
+  border: none;
+  /* height: 30px; */
+  width: 100%;
+  background-color: #07689f;
+  color: #fafafa;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 2%;
+  padding: 2%;
+}
+.user_submit:hover {
+  background-color: #fafafa;
+  border: 1px solid;
+  color: #000000;
+}
+.user_date{
+
+    display: block;
+
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    appearance: none;
+    position: relative;
+    flex: 1 1 auto;
+
+    min-width: 0;
+}
+/* Admin Home */
+
+.admin_col{
+  background-color: #a2d5f2;
+  margin: 5% auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 4% 0 4%;
+}
+.admin_icon{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 1%;
+}
+.admin_body{
+  background-color: #fafafa;
+}
+
+/* ADD TRAIN */
+
+.addtrain_body{
+  text-align: center;
+}
+
+.addtrain_selection{
+  width: 293px;
+  margin: 1% auto ;
+
+}
+
+.addtrain_input{
+  padding: 1%;
+  margin: 1% auto;
+  width: 100%;
+
+}
+
+
+.addtrain_button{
+  display: inline-block;
+  margin: 1% auto 0;
+}
+
+.addtrain_center{
+  margin: auto;
+}
+
+.addtrain_col{
+  background-color: #a2d5f2;
+  margin: 2% auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 2% 0 2%;
+}
+/* SEARCH TRAIN */
+.search_train_body{
+ background-color: #fafafa;
+}
+
+.search_train_h1{
+  margin-top: 2%;
+  text-align: center;
+  color: #07689f;
+}
+
+.search_train_col{
+  margin: 4% auto 0;
+  width: 50%;
+
+
+}
+
+.search_train_card{
+  background-color: #a2d5f2;
+  border-radius: 8px;
+
+}
+
+.no_train_found{
+  text-align: center;
+  margin: 10% auto 0;
+  padding: 2%;
+}
+
+/* booking */
+
+.booking_col{
+  background-color: #a2d5f2;
+  margin: 2% auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 4% ;
+}
+
+.booking_input{
+  padding: 1%;
+
+  width: 100%;
+}
+
+/* RESERVATION STATUS */
